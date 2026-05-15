@@ -1,0 +1,42 @@
+/* Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+/* Label */
+.input-label {
+  color: #f5c518; /* IMDb yellow vibe */
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Input Field */
+.input-field {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Placeholder */
+.input-field::placeholder {
+  color: #888;
+}
+
+/* Focus Effect */
+.input-field:focus {
+  border-color: #f5c518;
+  box-shadow: 0 0 8px rgba(245, 197, 24, 0.5);
+}
+
+/* Hover Effect */
+.input-field:hover {
+  border-color: #f5c518;
+}
